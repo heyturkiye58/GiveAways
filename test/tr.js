@@ -72,12 +72,12 @@ module.exports = {
             ]
         },
         advanced: [
-            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'GiveAways ile çekilişlerinizi özelleştirin', description: 'Özel çekilişler ile giveaways'ta bireysel çekilişi özelleştirebilirsiniz!'},
+            { placement: "left", imageUrl: 'https://i.imgur.com/lmotpuT.png', title: 'GiveAways ile çekilişlerinizi özelleştirin', description: 'Özel çekilişler ile giveaways\'ta bireysel çekilişi özelleştirebilirsiniz!'},
             { placement: "right", imageUrl: 'https://i.imgur.com/aQFJbiI.png', title: 'GiveAways çekilişinizi özel kilit sistemiyle kilitleyin', description: 'GiveAways\'ın özel kilit sistemi ile bireysel çekilişinizi özel kilit sistemiyle kilitleyebilirsiniz. Böylece tanımadığınız insan çekilişinize katılamaz!' },
             { placement: "left", imageUrl: 'https://i.imgur.com/KsBUSAB.png', title: 'GiveAways çekilişlerinize şartlar koyun', description: 'GiveAways çekilişlerinize belirli şartlar koyabilirsiniz! (Örneğin: davet sayısı ile katılan kişi ne kadar davet ettiyse çekilişe ancak o zaman katılabilir!)' }
         ],
         statistics: {
-            chosen: 'GiveAways,<span class="text-amber-500">{server_count}</span> sunucuda hizmet veriyor! ',
+            chosen: 'GiveAways, <span class="text-amber-500">{server_count}</span> sunucuda hizmet veriyor! ',
             labels: {
                 guilds: 'Sunucu',
                 members: 'Üye sayısı',
@@ -234,7 +234,7 @@ module.exports = {
             _profile: 'Profilinizi görüntüleyin!',
             _guilds: 'Sunucu seç!',
             _daily: 'Günlük ödüllerini al!',
-            _upvote: 'GiveAways/'a top.gg üzerinden oy ver!',
+            _upvote: 'GiveAways\'a top.gg üzerinden oy ver!',
             _panel: 'Yöneticilerin görebildiği yönetici paneli :)',
             _redeem: 'promo kodunuzu girin!',
             _notifications: 'Bildirimlerinizi görün!',
@@ -250,7 +250,7 @@ module.exports = {
        },
        connections: {
         title: 'Bağlantılar',
-        description: 'GiveAways'ta olan bağlantılarınızı yönetin!',
+        description: 'GiveAways\'ta olan bağlantılarınızı yönetin!',
         button: {
             logout: 'çıkış yap',
             connect: '<b>{PROVIDER}</b> olarak bağlan',
@@ -326,7 +326,7 @@ module.exports = {
         },
         auditLog: {
             title: 'Denetim kaydı',
-            description: 'Bu sunucuda GiveAways/'da yapılan değişikliklerin denetim kayıtları bu bölümde görülebilir.',
+            description: 'Bu sunucuda GiveAways\'da yapılan değişikliklerin denetim kayıtları bu bölümde görülebilir.',
             table: {
                 user: 'Kullanıcı',
                 date: 'Tarih',
